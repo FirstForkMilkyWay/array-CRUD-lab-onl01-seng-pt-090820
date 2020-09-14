@@ -7,7 +7,7 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  famous_cats = ["steve","stu","sam"]
+  array = ["steve","stu","sam"]
   famous_cats.push("Joe")
   puts famous_cats
 end
